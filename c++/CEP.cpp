@@ -11,7 +11,6 @@ protected:
     string ownerName;
     string location;
 
-
 public:
     Shop(string shopName, string ownerName, string location)
         : shopName(shopName), ownerName(ownerName), location(location) {}

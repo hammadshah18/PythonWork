@@ -1,13 +1,13 @@
 # //module 1 question
-a=12
+a=7
 b=3
-c=5
+
 print(a+b)
 print(a-b)
 print(a*b)
 print(a/b)
 print(a%b)
-print(a/c)
+print(a//b)#floor division
 
 
 # // module 2 question

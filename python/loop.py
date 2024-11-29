@@ -1,0 +1,5 @@
+shah=["red" ,"blue","green","white"]
+for syed in shah :
+  print(syed)
+  for i in syed:
+   print(i)

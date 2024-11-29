@@ -5,6 +5,7 @@ print("Hammad")
 # dynamic binding blow
 a=5
 print(a)
+
 a="shah"
 print(a)
 # here end dynamic binding exmaple means we can use one variable multiple times

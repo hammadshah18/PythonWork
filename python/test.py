@@ -1,1 +1,1 @@
-tvybnkbjh.
+print("hammad")

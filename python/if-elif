@@ -1,0 +1,6 @@
+email= input("enter your email")
+password=int(input("enter your password"))
+if email=="hammadshah7218@gmail.com" and password ==5341:
+    print("welcome")
+else :
+    print("wrong Email or password")

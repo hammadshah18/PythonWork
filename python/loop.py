@@ -7,5 +7,5 @@
 # for i in range(1,6,1):
 #     sum=sum+i
 #     print(sum)
-for i in range(1,12,2):
-    print(i)
+# for i in range(1,12,2):
+#     print(i)

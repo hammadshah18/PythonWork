@@ -1,0 +1,7 @@
+s=input("enter your name : ")
+match=input("enter your match characer : ")
+count=0
+for i in s:
+     if i==match:
+         count=count+1
+print(count)

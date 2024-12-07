@@ -10,9 +10,9 @@ print(a%b)
 print(a//b)#floor division
 
 # module 2 question
-h="Hammad"
+h="10"
 print(h)
-r="raza"
+r="10"
 name = h+r
 print(name)
 print(h[4])

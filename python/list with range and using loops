@@ -1,0 +1,7 @@
+a =list(range(5,51,5))
+print(a)
+a=range(0,10,1)
+lst=list(range(0,10,1))
+print(lst)
+for i in a:
+    print(i)

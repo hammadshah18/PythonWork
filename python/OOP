@@ -1,0 +1,20 @@
+class student:
+    name="hammad"
+    age="18"
+    gender="male"
+    uni="Muet"
+    def __init__(self,fullname,cast):
+        self.fullname=fullname
+        self.cast=cast
+        print("print something here if there is no attributes")
+
+
+    
+s2=student("Muhammad Hammad","shah")
+print(s2.fullname,s2.cast)
+s1= student("arbaz","shah")
+print(s1.fullname,s1.cast)
+print(s1.name)
+print(s1.gender)
+print(s1.uni)
+print(s1.age)

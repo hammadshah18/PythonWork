@@ -1,0 +1,47 @@
+# class user:
+#     def __init__(self):
+#         self.name='hammad'
+
+#     def login(self):
+#         print('login')  
+
+# class student(user):
+#     # def __init__(self): ___****___ always create chil constructor first
+#     #     self.rollno=36
+
+#     def enroll(self):
+#         print('hammad enrolled in last batched')             
+
+# u1=user()    
+# s1=student()  
+# s1.enroll()
+# s1.login()
+# print(s1.name)
+
+class phone:
+    def __init__(self,price,brand,camera):
+        print("inside phone constructor:")
+        self.__price=price  #private 
+        self.brand=brand
+        self.camera=camera
+
+    # def buy(self):
+    #     print("buy a phone : ")
+
+    def check(self):
+        print(self.__price )   
+class smartphone(phone):
+    # def __init__(self,os,ram):
+    #     print('inside smartphone constructor :')
+    #     self.os=os
+    #     self.ram=ram
+
+    def show(self):
+        print(self.check())    # accessing private attribute using getter setter method
+       
+
+# p=phone(100,'samsung',32)
+s=smartphone(100,'samsung',32)
+# print(s.brand,s.camera)
+# s.buy()
+s.show()

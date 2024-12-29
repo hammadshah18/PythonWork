@@ -1,0 +1,10 @@
+class shape:
+    def area(self,radius,c=0): # we are achieving method overloading by passing value to argument
+        if c==0:
+            return 3.14*radius**2
+        else :
+            return radius*c   
+
+s=shape()
+print(s.area(2))
+print(s.area(2,3) )           
